@@ -19,3 +19,22 @@ Testing is the process of running your app and seeing if it fufills certain crit
 Once you are sure your app is working correctly you then need to release it to the public on your chosen platform, however be aware that some app stores require you to make a payment for them to host your app.
 #### Step 7: Maintenance
 The final step is to continue to listen to user's feedback, this is so you can remove any found bugs and add any highly requested features.
+## The Debugging Process
+Debugging, in software development, is a process that involves finding and fixing errors and bugs in your software. Debugging a very important tool used by developers when trying to fix bugs in their code, from when they write the first lines of code, to when they are testing the final prototype.
+The Process:
+#### Step 1: Find and Describe the Bug
+Before the debugging process can begin you must fully describe what the issues are being caused by the bug.
+#### Step 2: Recreate and Snapshot the Bug
+Next you must try and reproduce the bug, creating a  of the state of the code when the bug appears (variable values, etc.)and what function is being run.
+#### Step 4: Analyze the Snapshot
+Begin to look at the functions being run around the time when the bug occurs and look for the individual function(s) that could be causing the bug. Once you have found the section of code that is causing the bug you can begin to think of possible solutions to fix the bug.
+#### Step 5: Test the Solution(s)
+Once you have implemented your solution into the code, you need to test it. If the solution fixes the bug and creates no new bugs then the solution was successful. If the solution does not work or creates new errors, you will need to repeat these steps. A possible issue could be you created a snapshot at the wrong point of the code runtime.
+## The Debugging Facilities Available in the IDE
+The debugging process can be less time consuming when using an IDE, this is because it provides a debugger with many different facilities to aid in discovering and fixing errors, such as
+#### Finding Runtime Errors
+Runtime errors are errors that can only occur while the code is running, an example of this being a function that is expecting a string but recieves an integer. The debugger in an IDE can identify where this error is located and higlight it so the programmer can find it and fix it.
+#### Pausing and Editing Code During Rumtime
+Some debuggers can allow you to pause your code while it is running this can allow you to edit the code, allowing you to see realtime results of the changes you make. This allows you to find solutions to bugs in your code quicker as you can more effeciently test different solutions.
+#### Changing Variable Values During Runtime
+Additionally some debuggers allow you to change the values of variables within you code while it is running. This is helpful for developers that want to test their software at certain stages or test how their code runs under variable changes while the code is running. 
