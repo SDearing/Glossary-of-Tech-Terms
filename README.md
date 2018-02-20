@@ -38,3 +38,9 @@ Runtime errors are errors that can only occur while the code is running, an exam
 Some debuggers can allow you to pause your code while it is running this can allow you to edit the code, allowing you to see realtime results of the changes you make. This allows you to find solutions to bugs in your code quicker as you can more effeciently test different solutions.
 #### Changing Variable Values During Runtime
 Additionally some debuggers allow you to change the values of variables within you code while it is running. This is helpful for developers that want to test their software at certain stages or test how their code runs under variable changes while the code is running. 
+## The Steps from Writing Code to Execution
+Once you have written your code their are certain steps the computer needs to complete before the code can be executed.
+#### Step 1: Using an Interpreter/Compiler
+A processor cannot understand the code you have written as you langauge you wrote in is a high-level language, a processor can only understand machine code. So First, the computer must translate the high-level code to machine code, to do this the computer uses an interpreter or a compiler. An interpreter translates one line of code and then executes it one at a time, whereas a compiler translates the whole source code before executing it.
+#### Step 2: Obtain Memory
+All processes in a computer require memory, so before any lines are executed the operating system of the computer must allocate a certain amount of memory for the process of running your code before it can be ran by the processor. Once the memory has been allocated the computer can then run the code.
