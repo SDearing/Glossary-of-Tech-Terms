@@ -41,6 +41,14 @@ Additionally some debuggers allow you to change the values of variables within y
 ## The Steps from Writing Code to Execution
 Once you have written your code their are certain steps the computer needs to complete before the code can be executed.
 #### Step 1: Using an Interpreter/Compiler
-A processor cannot understand the code you have written as you langauge you wrote in is a high-level language, a processor can only understand machine code. So First, the computer must translate the high-level code to machine code, to do this the computer uses an interpreter or a compiler. An interpreter translates one line of code and then executes it one at a time, whereas a compiler translates the whole source code before executing it.
+A processor cannot understand the code you have written as the langauge you wrote it in is a high-level language, a processor can only understand machine code. So first, the computer must translate the high-level code to machine code, to do this the computer uses an interpreter or a compiler. An interpreter translates one line of code and then executes it one at a time, whereas a compiler translates the whole source code before executing it.
 #### Step 2: Obtain Memory
 All processes in a computer require memory, so before any lines are executed the operating system of the computer must allocate a certain amount of memory for the process of running your code before it can be ran by the processor. Once the memory has been allocated the computer can then run the code.
+#### Step 3: Run Code
+The processor runs the stored machine code, and therefore runs your written high-level code.
+## How Technical Solutions Can be Compared
+The following factors are judged when comparing technical solutions:
+* Robustness: Robustness refers to how resilient a peice of code is, meaning that the code has minimal bugs and crashes extremely rarely. Robustness also refers to a softwares ability to withstand erroneous input, which means inputs that have the ability to cause issues to the software, i.e. a user inputting a integer when the software is expecting a string.
+* Efficiency: Efficiency refers to the speed of the runtime of the execution of software, meaning how long the software takes to give the desired solution. Speed of runtime also refers to how long the actual source code is, i.e software with a minimal amount of lines of source code are more effecient that software with large of amounts of lines of source code.
+* Fitness: This refers to whether or not the solution fufils its intended purpose, or if it is being used for a different purpose.
+* Cost of Software: This refers to how much the consumer would have to pay for the software, being a annual cost or a one time cost. Software needs to be priced fairly for it to gain popularity in its respective market.
