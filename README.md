@@ -39,7 +39,7 @@ The debugging process can be less time consuming when using an IDE, this is beca
 These commands help the programmer jump to and run, seperate functions within their code. The step into command jumps to the next function within the code, the step over command skips the next function and moves onto the function after it, finally the step out command leaves the current function being run. These commands help with debugging as it helps the programmer test different parts of their code, without having to run the whole code or disturb certain parts of the code, this is especially helpful when working with large amounts of code.
 #### Pausing and Editing Code During Runtime
 Some debuggers can allow you to pause your code while it is running this can allow you to edit the code, allowing you to see realtime results of the changes you make. This allows you to find solutions to bugs in your code quicker as you can more effeciently test different solutions.
-#### Allows Variable Values to be Observed During Runtime
+#### Allows Variable States to be Seen During Runtime
 Most IDEs also allow the programmer to observe the current value of any variable while the program is running, this allows the programmer to know in what parts of the program variables are being changed and check if any variables are being changed to a unexpected value.
 ## The Steps from Writing Code to Execution
 Once you have written your code their are certain steps the computer needs to complete before the code can be executed.
