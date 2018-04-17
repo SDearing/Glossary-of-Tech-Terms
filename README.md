@@ -42,12 +42,13 @@ Some debuggers can allow you to pause your code while it is running this can all
 #### Allows Variable States to be Seen During Runtime
 Most IDEs also allow the programmer to observe the current value of any variable while the program is running, this allows the programmer to know in what parts of the program variables are being changed and check if any variables are being changed to a unexpected value.
 ## The Steps from Writing Code to Execution
-Once you have written your code their are certain steps the computer needs to complete before the code can be executed.
-#### Step 1: Using an Interpreter/Compiler
-A processor cannot understand the code you have written as the langauge you wrote it in is a high-level language, a processor can only understand machine code. So first, the computer must translate the high-level code to machine code, to do this the computer uses an interpreter or a compiler. An interpreter translates one line of code and then executes it one at a time, whereas a compiler translates the whole source code before executing it.
-#### Step 2: Obtain Memory
+### Step 1: Write your Code
+Before anything can be run, you must first write out your code, you can either do this in a .txt document or by using an IDE (integrated development environment). The type of code you write in is high level code, which is code that is written in a language close to the english language so it is easier to understand. However a computer cannot understand high level code and will need to translate the high level code to machine code.
+#### Step 2: Using an Interpreter/Compiler
+A computer cannot understand the code you have written as the langauge you wrote it in is a high-level language, a processor can only understand machine code. So first, the computer must translate the high-level code to machine code, to do this the computer uses an interpreter or a compiler. An interpreter translates one line of code and then executes it one at a time, whereas a compiler translates the whole source code before executing it. All IDEs have a interpreter/compiler implemented in it, so that your code can be translated and run within the IDE.
+#### Step 3: Obtain Memory
 All processes in a computer require memory, so before any lines are executed the operating system of the computer must allocate a certain amount of memory for the process of running your code before it can be ran by the processor. Once the memory has been allocated the computer can then run the code, or create a virtual machine where the code can be run in, this depends on the programming language you are using.
-#### Step 3: Run Code
+#### Step 4: Run Code
 The processor runs the stored machine code, and therefore runs your written high-level code.
 ## How Technical Solutions Can be Compared
 The following factors are judged when comparing technical solutions:
