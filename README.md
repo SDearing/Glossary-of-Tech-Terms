@@ -61,3 +61,4 @@ Team dynamics are the aspects that affect the relationship between members of a 
 ## How to Address Software Requirements in Projects 
 To address the requirements when starting a project we use the SCRUM model to plan and break down requirements. The first part of the model is to come up with the overall goal of the project, in SCRUM, this is called the initiative. Once the overall goal has been decided it is broken down into large bodies of work called epics in SCRUM, the epics are then broken down further. The epics are broken down into short requirements/ requests written from the perspective of the end user, in SCRUM, these are called user stories and are the final stage of planning out the requirements of the project.
 
+![SCRUM](https://github.com/SDearing/Glossary-of-Tech-Terms/blob/master/assets/SCRUM.png)
