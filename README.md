@@ -52,7 +52,7 @@ All processes in a computer require memory, so before any lines are executed the
 The processor runs the stored machine code, and therefore runs your written high-level code.
 ## How Technical Solutions Can be Compared
 The following factors are judged when comparing technical solutions:
-* Robustness: Robustness refers to how resilient a peice of code is, meaning that the code has minimal bugs and crashes extremely rarely. Robustness also refers to a softwares ability to withstand erroneous input, which means inputs that have the ability to cause issues to the software, i.e. a user inputting a integer when the software is expecting a string.
+* Robustness: Robustness refers to how resilient a piece of code is, meaning that the code has minimal bugs and crashes extremely rarely. Robustness also refers to a software's ability to withstand erroneous input, which means inputs that have the ability to cause issues to the software, i.e. a user inputting a integer when the software is expecting a string.
 * Efficiency: Efficiency refers to the speed of the runtime of the execution of software, meaning how long the software takes to give the desired solution. Speed of runtime also refers to how long the actual source code is, i.e software with a minimal amount of lines of source code are more effecient that software with large of amounts of lines of source code.
 * Fitness: This refers to whether or not the solution fufils its intended purpose, or if it is being used for a different purpose.
 * Cost of Software: This refers to how much the consumer would have to pay for the software, being a annual cost or a one time cost. Software needs to be priced fairly for it to gain popularity in its respective market.
