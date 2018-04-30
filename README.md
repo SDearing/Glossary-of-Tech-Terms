@@ -28,7 +28,7 @@ The Process:
 #### Step 1: Find and Describe the Bug
 Before the debugging process can begin you must fully describe what the issues are being caused by the bug.
 #### Step 2: Recreate and Snapshot the Bug
-Next you must try and reproduce the bug, creating a  of the state of the code when the bug appears (variable values, etc.)and what function is being run.
+Next you must try and reproduce the bug, creating a snapshot of the state of the code when the bug appears (variable values, etc.)and what function is being run.
 #### Step 4: Analyze the Snapshot
 Begin to look at the functions being run around the time when the bug occurs and look for the individual function(s) that could be causing the bug. Once you have found the section of code that is causing the bug you can begin to think of possible solutions to fix the bug.
 #### Step 5: Test the Solution(s)
